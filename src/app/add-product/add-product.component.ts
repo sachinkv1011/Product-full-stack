@@ -38,6 +38,14 @@ export class AddProductComponent {
         
       }
     )
+    this.productCode=""
+      this.productName=""
+      this.manufactureDate=""
+      this.expDate=""
+      this.brand=""
+      this.price=""
+      this.sellerName=""
+      this.distributorName=""
   }
 
 }
