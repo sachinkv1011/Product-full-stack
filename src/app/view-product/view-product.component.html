@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3 mt-3">
+                <h2 class=text-center>Products</h2>
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3" *ngFor="let i of product">
+
+                    <div class="card"  >
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGC4fPleRyQzV0ev6FXwKx7quGNHWJqkS_yX6t9caWSQ&s" class="card-img-top" alt="...">
+                        <div class="card-body" >
+                          <h5 class="card-title text-center">{{i.productName}}</h5>
+                          <ul class="list-group bg-secondary">
+                            <li class="list-group-item">{{i.productCode}}</li>
+                            <li class="list-group-item">{{i.brand}}</li>
+                            <li class="list-group-item">{{i.price}}</li>
+                            <li class="list-group-item">{{i.manufactureDate}}</li>
+                            <li class="list-group-item">{{i.expDate}}</li>
+                            <li class="list-group-item">{{i.sellerName}}</li>
+                            <li class="list-group-item">{{i.distributorName}}</li>
+                          </ul>
+                          
+                          <a href="#" class="btn btn-outline-success mt-2 ">Buy Now</a>
+                        </div>
+                      </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
